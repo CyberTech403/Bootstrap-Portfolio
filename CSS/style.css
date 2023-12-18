@@ -1,13 +1,22 @@
+/*
 [class*='col'] {
-  padding: 1rem;
+  padding: 1.25rem;
   background-color: rgb(222, 255, 255);
   border: 2px solid rgb(212, 114, 191);
   color: rgb(0, 0, 0);
 }
 
+*/
+
+/* NavBar sections Start */
 .navbar {
   padding: 20px 20px;
   margin: auto;
+}
+
+#navbarNav {
+  text-align: center;
+
 }
 
 .navbar-brand {
@@ -16,12 +25,15 @@
   border: 1px solid rgb(238, 255, 0);
 }
 
+/* NavBar sections End */
+
+
 
 .hero {
   width: auto;
   height: 400px;
   padding:1.25rem;
-  margin-top: 6rem;
+  margin-top: 6.0rem;
   margin-right: auto;
   margin-left: auto;
   border: 1px solid red;
@@ -37,5 +49,8 @@
 
 .container {
   margin: 2rem;
+  padding: 1.25rem;
   border: 2px solid rgb(58, 236, 126); 
+  background-color: rgb(190, 196, 196);
+  color: rgb(0, 0, 0);
 }
