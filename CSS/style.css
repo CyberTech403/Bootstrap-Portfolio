@@ -3,7 +3,7 @@
   #offcanvasNavbar {
     width: 75%;
     background-color: rgba(255, 255, 255, 0.808);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(15px);
   }
   .btn-close {
     margin-right: 1.25rem;
