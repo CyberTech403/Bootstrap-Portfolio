@@ -23,17 +23,17 @@
   }
 }
 
+
+
+
+
 /* NavBar section - Start */
 
-.fixed-top {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-  margin: 0rem 1rem;
-  border-radius: 0rem 0rem 1.25rem 1.25rem;
-  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1)
+.nav-top{
+  z-index: 1000;
+  margin: 0rem 0rem;
+/*  border-radius: 0rem 0rem 1.25rem 1.25rem; */
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-toggle {
@@ -94,9 +94,11 @@
   position: absolute;
   padding: 1.25rem 1.85rem;
   margin: 1.25rem 1.25rem;
-  background-color: rgba(0, 0, 0, 0.767);
+  background-color: rgba(0, 0, 0, 0.562);
+  backdrop-filter: blur(2px);
   border-radius: 5rem 5rem 5rem 5rem;
   box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.856);
+  backdrop-filter: blur (100px);
 }
 
 .job-title {
@@ -117,7 +119,6 @@
 
 #profile-picture {
   position: relative;
-  
   align-content: center;
   padding: 1.25rem;
   margin: 1.25rem 4.5rem;
@@ -126,21 +127,41 @@
 
 /* Hero sections - Finish*/
 /************************/
+/* Work - Projects sections - Start*/
+
+.card .img-fit {
+  height: 100%;
+  object-fit: cover;
+}
+
+.card {
+  height: 100%;
+  align-items: center;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  margin: auto;
+  padding: auto;
+}
+.card-text {
+  flex-grow: 1;
+}
+.card .text-center {
+  margin-bottom: 1rem;
+}
 
 
-
-
-
-
-
-
-
-
+/* Work - Projects sections - Finish*/
+/************************/
 .container {
-  margin: 2rem;
-  padding: 1.25rem;
-  border: 2px solid rgb(58, 236, 126); 
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  padding: 1.25rem 2.25rem;
+  margin: 2.25rem;
+  border-radius: 2rem 2rem 2rem ;
 }
 
