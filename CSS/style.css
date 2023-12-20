@@ -2,17 +2,47 @@
 
   #offcanvasNavbar {
     width: 50%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.61);
+    backdrop-filter: blur(3px);
   }
   .btn-close {
     margin-right: 1.25rem;
   }
   .offcanvas-header {
-    margin-right: 2rem;
+    margin-right: 1rem;
   }
+
+  .dropdown-menu {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .dropdown-item {
+    align-content: center;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .offcanvas-body {
+    align-items: center;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0.75rem;
+  }
+
 }
 
 @media (max-width: 770px) {
+
+  .nav-top {
+    position: sticky;
+  }
+
   .hero {
     min-height: 40vh;
     margin-bottom: 2.25rem;
@@ -45,11 +75,12 @@
 
 /* NavBar section - Start */
 
-.nav-top{
+.navbar {
   z-index: 1000;
   margin: 0rem 0rem;
 /*  border-radius: 0rem 0rem 1.25rem 1.25rem; */
-  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgb(255, 255, 255);
+  box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.555);
 }
 
 .navbar-toggle {
@@ -87,6 +118,7 @@
 .nav-item {
   padding:1rem;
 }
+
 
 /* NavBar section - Finish */
 /************************/
@@ -134,6 +166,7 @@
 
 #profile-picture {
   width: 14rem;
+  height: 14rem;
   position: relative;
   align-content: center;
   padding: 1.25rem;
