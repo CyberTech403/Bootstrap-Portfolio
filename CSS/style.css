@@ -1,8 +1,8 @@
 @media (max-width: 576px) {
 
   #offcanvasNavbar {
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.712);
+    width: 75%;
+    background-color: rgba(255, 255, 255, 0.808);
     backdrop-filter: blur(3px);
   }
   .btn-close {
@@ -36,13 +36,22 @@
     margin-bottom: 0.75rem;
   }
 
+  .custom-tittle-project {
+    padding: 1.15rem;
+    margin: 1.15rem;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.76);
+    text-shadow: 2rem 2rem 30rem 30rem rgb(0, 0, 0);
+  }
+
 }
 
 @media (max-width: 770px) {
 
   #offcanvasNavbar {
-    width: 50%;
-    background-color: rgba(255, 255, 255, 0.712);
+    width: 60%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.808);
     backdrop-filter: blur(3px);
   }
 
@@ -79,6 +88,14 @@
     backdrop-filter: blur(2px);
     border-radius: 5rem 5rem 5rem 5rem;
     box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.856);
+  }
+
+  .custom-tittle-project {
+    padding: 1.15rem;
+    margin: 1.15rem;
+    font-size: 4rem;
+    color: rgba(0, 0, 0, 0.76);
+    text-shadow: 2rem 2rem 30rem 30rem rgb(0, 0, 0);
   }
 }
 
@@ -208,7 +225,7 @@
 .custom-tittle-project {
  padding: 1.15rem;
  margin: 1.15rem;
- font-size: 6rem;
+ font-size: 4rem;
  color: rgba(0, 0, 0, 0.76);
  text-shadow: 2rem 2rem 30rem 30rem rgb(0, 0, 0);
  /* background-color: rgba(145, 222, 253, 0.349);
