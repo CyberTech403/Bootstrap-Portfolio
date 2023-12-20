@@ -1,6 +1,21 @@
-@media (max-width: 768px) {
+@media (max-width: 576px) {
+
+  #offcanvasNavbar {
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+  }
+  .btn-close {
+    margin-right: 1.25rem;
+  }
+  .offcanvas-header {
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 770px) {
   .hero {
     min-height: 40vh;
+    margin-bottom: 2.25rem;
   }
   .full-name  {
     font-size: 2.25rem;
@@ -11,7 +26,8 @@
   }
 
   #profile-picture {
-    width: 12rem;
+    width: 10rem;
+    z-index: 1;
   }
 
   .job-title {
@@ -21,11 +37,11 @@
     padding: 1.15rem;
     margin: 1.15rem;
   }
+
+  .color-overlayer {
+    position: absolute;
+  }
 }
-
-
-
-
 
 /* NavBar section - Start */
 
@@ -98,7 +114,6 @@
   backdrop-filter: blur(2px);
   border-radius: 5rem 5rem 5rem 5rem;
   box-shadow: 0px 0px 20px 10px rgba(255, 255, 255, 0.856);
-  backdrop-filter: blur (100px);
 }
 
 .job-title {
@@ -118,6 +133,7 @@
 
 
 #profile-picture {
+  width: 14rem;
   position: relative;
   align-content: center;
   padding: 1.25rem;
@@ -126,6 +142,17 @@
 
 
 /* Hero sections - Finish*/
+/************************/
+/************************/
+/* About me and contact - Start */
+
+
+
+
+
+
+/* About me and contact - Finish */
+/************************/
 /************************/
 /* Work - Projects sections - Start*/
 
@@ -162,6 +189,9 @@
 .container {
   padding: 1.25rem 2.25rem;
   margin: 2.25rem;
+  margin-bottom: 3rem;
   border-radius: 2rem 2rem 2rem ;
 }
 
+
+/* Footer*/
